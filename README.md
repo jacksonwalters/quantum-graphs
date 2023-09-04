@@ -20,3 +20,8 @@ Over a generic point in $\mathbb{R}_{\ge 0}^N$ the fiber of $f$ is a product of 
 
 In other words, we are sampling the quantum graphs to get real networks, which can then by mapped to graphs. The only natural algebraic structures I see on $\mathbb{R}_{\ge 0}$ and $\{0,1\}$ are the semi-ring structure. $\mathbb{S}^3$ can be viewed as the group of unit quaternions, yielding an isomorphism to $SU(2)$.
 
+---
+
+In this repository, I am using IBM's QisKit to actually code up $N$ qubits as a quantum network and sample them to get graphs, or really a probability distribution on a graph which yields a network. Here is an example of a three-qubit circuit with some basic operations I have successfully coded up:
+
+![three qubit quantum circuit](three_qubit_quantum_circuit.png)
