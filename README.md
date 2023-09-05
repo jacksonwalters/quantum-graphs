@@ -24,4 +24,19 @@ In other words, we are sampling the quantum graphs to get real networks, which c
 
 In this repository, I am using IBM's QisKit to actually code up $N$ qubits as a quantum network and sample them to get graphs, or really a probability distribution on a graph which yields a network. Here is an example of a three-qubit circuit with some basic operations I have successfully coded up:
 
-![three qubit quantum circuit](three_qubit_quantum_circuit.png)
+![three qubit quantum circuit](images/three_qubit_quantum_circuit.png)
+
+---
+
+*Cohomology*
+
+The cohomology of the space $\mathbb{R}_{\ge 0}^N/\Sigma_n$ appears to be trivial, as shown [here](https://github.com/jacksonwalters/orbit-space-homology).
+
+In contrast, the cohomology of the space $Y_n=(S^3)^N/\Sigma_n$ we expect to be non-trivial. Note that the cohomology of $Y_N=(S^3)^N/\Sigma_N$ should sit in the cohomology of $Y_n$, since $Y_n \rightarrow Y_N$ as $\Sigma_n \subset \Sigma_N$ and $H^*$ is a contravariant functor. Note that $Y_N$ is a symmetric space. Generally speaking, since the cohomology of $S^3$ is non-trivial we don't expect the cohomology of $Y_N$ to be trivial. By analogy, The symmetric space $(P^1)^N/\Sigma_N$, the Hilbert scheme on $N$ points, is isomorphic to $P^N$ by mapping inhomogeneous coordinates $(X_1...X_N)$ of $P^1$ to coefficients of the symmetric $(x-X_1)...(x-X_N)$. 
+
+Note that $P^1(\mathbb{C}) \cong S^2$, and the cohomology of $P^N(\mathbb{C})$ is $H^0(\mathbb{C}\mathbb{P}^N)=H^1(\mathbb{C}\mathbb{P}^N)=\mathbb{Z}=\mathbb{Z}$ and the higher groups are trivial.
+
+ChatGPT computes for us the cohomology of $Y_N$ for $N=3$ and $N=4$:
+
+![three qubit quantum circuit](images/cohomology_Y_N_N=3.png)
+![three qubit quantum circuit](images/cohomology_Y_N_N=4.png)
