@@ -36,7 +36,7 @@ In contrast, the cohomology of the space $Y_n=(S^3)^N/\Sigma_n$ we expect to be 
 
 ChatGPT gives an outline for computing the cohomology of $X_N$ for $N=4$:
 
-![images/cohomology_Y_N_N=3](images/cohomology_X_N_N=4.png)
+![images/cohomology_Y_N_N=3](images/cohomology_X_N_N=4_outline.png)
 
 ChatGPT attempts to compute the cohomology of $X_N$ for $N=4$ with coefficients in $\mathbb{Z}$:
 
