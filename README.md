@@ -45,6 +45,6 @@ ChatGPT attempts to compute the cohomology of $Y_n = (S^3)^N / \Sigma_n$ and get
 
 ![images/cohomology_Y_N_N=3](images/cohomology_Y_n_n=4_error.png)
 ![images/cohomology_Y_N_N=3](images/cohomology_Y_n_n=4_correction_1.png)
-![images/cohomology_Y_N_N=3](images/cohomology_Y_n_N=4_correction_2.png)
+![images/cohomology_Y_N_N=3](images/cohomology_Y_n_n=4_correction_2.png)
 
 **References**: (\Sigma_n)-equivariant cohomology of (S^3)^N - see Ken Brown's "Cohomology of groups", VII.7 and exercises therein.
