@@ -38,5 +38,11 @@ Note that $P^1(\mathbb{C}) \cong S^2$, and the cohomology of $P^N(\mathbb{C})$ i
 
 ChatGPT computes for us the cohomology of $Y_N$ for $N=3$ and $N=4$:
 
-![three qubit quantum circuit](images/cohomology_Y_N_N=3.png)
-![three qubit quantum circuit](images/cohomology_Y_N_N=4.png)
+![images/cohomology_Y_N_N=3](images/cohomology_Y_N_N=3.png)
+![images/cohomology_Y_N_N=4](images/cohomology_Y_N_N=4.png)
+
+ChatGPT attempts to compute the cohomology of $Y_n = (S^3)^N / \Sigma_n$ and gets $H^2(Y_n)=\mathbb{Z}_{720}$. This is startling, and it offers a correction:
+
+
+
+References: (\Sigma_n)-equivariant cohomology of (S^3)^N - see Ken Brown's "Cohomology of groups", VII.7 and exercises therein.
