@@ -43,6 +43,8 @@ ChatGPT computes for us the cohomology of $Y_N$ for $N=3$ and $N=4$:
 
 ChatGPT attempts to compute the cohomology of $Y_n = (S^3)^N / \Sigma_n$ and gets $H^2(Y_n)=\mathbb{Z}_{720}$. This is startling, and it offers a correction:
 
-
+![images/cohomology_Y_N_N=3](images/cohomology_Y_n_n=4_error.png)
+![images/cohomology_Y_N_N=3](images/cohomology_Y_n_n=4_correction_1.png)
+![images/cohomology_Y_N_N=3](images/cohomology_Y_n_N=4_correction_2.png)
 
 References: (\Sigma_n)-equivariant cohomology of (S^3)^N - see Ken Brown's "Cohomology of groups", VII.7 and exercises therein.
