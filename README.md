@@ -40,7 +40,7 @@ ChatGPT gives an outline for computing the cohomology of $X_N$ for $N=4$:
 
 ChatGPT attempts to compute the cohomology of $X_N$ for $N=4$ with coefficients in $\mathbb{R}$:
 
-![images/cohomology_Y_N_N=3](images/cohomology_X_N_N=4_R_coeffs.png)
+![images/cohomology_Y_N_N=3](images/cohomology_X_N_N=4_Z_coeffs.png)
 
 ChatGPT attempts to compute the cohomology of $Y_n = (S^3)^N / \Sigma_n$ and gets $H^2(Y_n)=\mathbb{Z}_{720}$. This is startling, and it offers a correction:
 
