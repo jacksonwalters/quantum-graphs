@@ -32,19 +32,18 @@ In this repository, I am using IBM's QisKit to actually code up $N$ qubits as a 
 
 The cohomology of the space $\mathbb{R}_{\ge 0}^N/\Sigma_n$ appears to be trivial, as shown [here](https://github.com/jacksonwalters/orbit-space-homology).
 
-In contrast, the cohomology of the space $Y_n=(S^3)^N/\Sigma_n$ we expect to be non-trivial. Note that the cohomology of $Y_N=(S^3)^N/\Sigma_N$ should sit in the cohomology of $Y_n$ as an invariant subspace, since $Y_n \rightarrow Y_N$ as $\Sigma_n \subset \Sigma_N$ and $H^*$ is a contravariant functor. Note that $Y_N$ is a symmetric space. Generally speaking, since the cohomology of $S^3$ is non-trivial we don't expect the cohomology of $Y_N$ to be trivial. By analogy, The symmetric space $(P^1)^N/\Sigma_N$, the Hilbert scheme on $N$ points, is isomorphic to $P^N$ by mapping inhomogeneous coordinates $(X_1...X_N)$ of $P^1$ to coefficients of the symmetric $(x-X_1)...(x-X_N)$. 
+In contrast, the cohomology of the space $Y_n=(S^3)^N/\Sigma_n$ we expect to be non-trivial. Note that the cohomology of $X_N=(S^3)^N/\Sigma_N$ should sit in the cohomology of $Y_n$ as an invariant subspace, since $Y_n \rightarrow X_N$ as $\Sigma_n \subset \Sigma_N$ and $H^*$ is a contravariant functor. Note that $X_N$ is a symmetric space. Generally speaking, since the cohomology of $S^3$ is non-trivial we don't expect the cohomology of $X_N$ to be trivial.
 
-Note that $P^1(\mathbb{C}) \cong S^2$, and the cohomology of $P^N(\mathbb{C})$ is $H^0(\mathbb{C}\mathbb{P}^N)=H^1(\mathbb{C}\mathbb{P}^N)=\mathbb{Z}=\mathbb{Z}$ and the higher groups are trivial.
+ChatGPT gives an outline for computing the cohomology of $X_N$ for $N=4$:
 
-ChatGPT computes for us the cohomology of $Y_N$ for $N=3$ and $N=4$:
-
-![images/cohomology_Y_N_N=3](images/cohomology_Y_N_N=3.png)
-![images/cohomology_Y_N_N=4](images/cohomology_Y_N_N=4.png)
+![images/cohomology_Y_N_N=3](images/cohomology_X_N_N=4.png)
 
 ChatGPT attempts to compute the cohomology of $Y_n = (S^3)^N / \Sigma_n$ and gets $H^2(Y_n)=\mathbb{Z}_{720}$. This is startling, and it offers a correction:
 
 ![images/cohomology_Y_N_N=3](images/cohomology_Y_n_n=4_error.png)
 ![images/cohomology_Y_N_N=3](images/cohomology_Y_n_n=4_correction_1.png)
 ![images/cohomology_Y_N_N=3](images/cohomology_Y_n_n=4_correction_2.png)
+
+**Acknowledgements**: Thank you to Siu-Cheong Lau, Steve Rosenberg, and ChatGPT for helpful conversations.
 
 **References**: (\Sigma_n)-equivariant cohomology of (S^3)^N - see Ken Brown's "Cohomology of groups", VII.7 and exercises therein.
