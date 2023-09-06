@@ -42,4 +42,4 @@ $(P^1)^N/\Sigma_N \cong P^N$ by mapping inhomogeneous coordinates $(Z_1,...,Z_N)
 
 **Acknowledgements**: Thank you to Siu-Cheong Lau, Steve Rosenberg, and ChatGPT for helpful conversations.
 
-**References**: (\Sigma_n)-equivariant cohomology of (S^3)^N - see Ken Brown's "Cohomology of groups", VII.7 and exercises therein.
+**References**: $\Sigma_n$-equivariant cohomology of $(S^3)^N$ - see Ken Brown's "Cohomology of groups", VII.7 and exercises therein.
