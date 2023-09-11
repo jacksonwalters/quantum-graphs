@@ -32,13 +32,8 @@ In this repository, I am using IBM's QisKit to actually code up $N$ qubits as a 
 
 The cohomology of the space $\mathbb{R}_{\ge 0}^N/\Sigma_n$ appears to be trivial, as shown [here](https://github.com/jacksonwalters/orbit-space-homology).
 
-ChatGPT gives an outline for computing the cohomology of $X_N$ for $N=4$:
 
-![images/cohomology_Y_N_N=3](images/cohomology_X_N_N=4_outline.png)
-
-In contrast, the cohomology of the space $Y_n=(S^3)^N/\Sigma_n$ we expect to be non-trivial. Let $X_N=(S^3)^N/\Sigma_N$ be the space of $N$ unordered qubits. $H(X_N)$ should sit in $H(Y_n)$ as an invariant subspace, since $X_N \rightarrow Y_n$ as $\Sigma_n \subset \Sigma_N$ and $H$ is a contravariant functor. Note that $X_N$ is a symmetric space. Generally speaking, since the cohomology of $S^3$ is non-trivial we don't expect the cohomology of $X_N$ to be trivial.
-
-$(P^1)^N/\Sigma_N \cong P^N$ by mapping inhomogeneous coordinates $(Z_1,...,Z_N)$ to coefficients of the symmetric polynomial $(x-Z_1)...(x-Z_N)$. $(S^3)^N/\Sigma_N$ has a $T^N$ fibration over $(P^1)^N/\Sigma_N$ by Hopf $S^3 \rightarrow P^1$. Then there is a spectral sequence on this fiber bundle. The $E_2$ page is the tensor product between $H(\text{base}=P^N)$ and $H(\text{fiber}=T^N)$. So $H((S^3)^N/\Sigma_N)$ has dim. not greater than dim. $H(\text{base}=P^N) \otimes H(\text{fiber}=T^N)$.
+The cohomology of the space $\left(\mathbb{S}^3\right)^N/\Sigma_n$ is non-trivial, and explained [here](https://mathoverflow.net/questions/453878/cohomology-of-the-amplitude-space-of-unlabeled-quantum-networks).
 
 **Acknowledgements**: Thank you to Siu-Cheong Lau, Steve Rosenberg, and ChatGPT for helpful conversations.
 
